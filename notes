@@ -1,0 +1,68 @@
+***Note***
+
+1. all javascript code can be written in typescript
+
+2. all the code in typescript cannot be written in javascript
+
+
+---> Typescript types----
+it provides the strongly typed language to the javascript with the help of typescript
+
+2types 
+
+1. Type annotation
+2. Type inference
+
+
+Type annotation
+--> explicitly we are specifing the datatype 
+
+
+synatx for type annotation
+
+let username:[type]
+
+
+Type inference
+--> implicitly tsc will specify the datatype
+
+
+Datatypes in Typescript
+ 1.Primitive Datatypes
+    a.string
+    b.number
+    c.boolean
+    d.null
+    e.undefined
+ 2.Object Reference Datatypes || Non Primitive Datatypes
+    a.Object
+    b.function
+    c.array
+
+
+//TUPLES
+ tuples are like advanced array with extra feature that ensure type safety in typescript
+
+ Note:
+ --> no restrictions for array methods in tuples
+ --> if it is a tuple we need to follow the fixed size array
+
+ typesafety --> helps in error handling
+
+ Difference between tuple and array
+  tuple-->when we assign values to a tuple ,these values must match the types
+
+  array--> it takes the multiple type when it is declared any type.
+
+
+//? Type Union
+an ability to combine one or more different types of data.
+it is the most powerful way to express a variable with multiple types
+use("|")--->pipe symbol
+
+
+// type alias
+ type alias gives a new name, they are similar to interface
+
+ NOTE:
+ alias doesen't truely create a new type insted of it gives that type a new name.
